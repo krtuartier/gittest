@@ -16,6 +16,7 @@ git reflog
 git reset --hard 8454a2a
 git checkout -- <filename>
 git diff <filename>
+git config alias.co checkout
 
 asfddddddddsafs
 
