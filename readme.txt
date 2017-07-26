@@ -15,9 +15,10 @@ git reset --hard HEAD~12
 git reflog
 git reset --hard 8454a2a
 git checkout -- <filename>
+git diff <filename>
 
 asfddddddddsafs
-asfdfffffsafdsa
+
 
 
 
