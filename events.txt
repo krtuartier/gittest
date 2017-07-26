@@ -1,0 +1,11 @@
+//引入 events 模块
+var events=require('events');
+//创建 eventEmitter 对象
+var eventEmitter=new events.EventEmitter();
+//创建事件处理程序
+var connectHandler=function connected(){
+ console.log('连接成功。');
+ eventEmitter.emit('data_received');
+}
+//绑定 connection 事件处理程序
+eventEmitter.on('eventName',eventHandler);
