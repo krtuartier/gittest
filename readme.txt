@@ -13,7 +13,8 @@ git log --pretty=oneline
 git reset --hard HEAD^
 git reset --hard HEAD~12
 git reflog
-
+git reset --hard 8454a2a
+git checkout -- <filename>
 
 asfddddddddsafs
 asfdfffffsafdsa
